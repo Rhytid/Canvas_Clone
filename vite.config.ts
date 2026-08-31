@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/f25-cisc275-brown/',
+    base: '/Canvas_Clone/',
     plugins: [react()],
     optimizeDeps: {
     exclude: ['pyodide']
