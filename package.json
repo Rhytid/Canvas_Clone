@@ -16,7 +16,8 @@
         "test": "jest --watch --config jest.config.js",
         "test:cov": "jest --coverage --config=jest.config.js",
         "cy:open": "cypress open",
-        "cy:run": "cypress run"
+        "cy:run": "cypress run",
+        "deploy": "npm run build && gh-pages -d dist"
     },
     "dependencies": {
         "@lexical/markdown": "^0.38.2",
